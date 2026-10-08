@@ -1,2 +1,2 @@
---upgrade pip
-scikit-learn numpy
+numpy
+scikit-learn
