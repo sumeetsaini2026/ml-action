@@ -1,8 +1,8 @@
 name: ML Run in Sequence
 # on mentions a trigger for the workflow
 on: 
-    push: # when a push is made to the main branch of the repository
-    #workflow_dispatch:  # run only when triggered manually
+   # push: # when a push is made to the main branch of the repository
+    workflow_dispatch:  # run only when triggered manually
 jobs:
   ml_run:
     runs-on: ubuntu-latest # runs the workflow on the latest ubuntu version
